@@ -1,0 +1,23 @@
+$body-font-color: $white;
+
+$topbar-padding: 0.5rem;
+
+$offcanvas-sizes: (
+  small: 150px,
+);
+$offcanvas-vertical-sizes: (
+  small: 150px,
+);
+$offcanvas-background: rgba(0,0,0,0.9);
+$offcanvas-shadow: 0 0 10px rgba($black, 0.7);
+$offcanvas-inner-shadow-size: 20px;
+$offcanvas-inner-shadow-color: rgba($black, 0.25);
+$offcanvas-overlay-zindex: 11;
+$offcanvas-push-zindex: 12;
+$offcanvas-overlap-zindex: 13;
+$offcanvas-reveal-zindex: 12;
+$offcanvas-transition-length: 0.3s;
+$offcanvas-transition-timing: ease;
+$offcanvas-fixed-reveal: true;
+$offcanvas-exit-background: rgba(0,0,0,0.25);
+$maincontent-class: 'off-canvas-content';
